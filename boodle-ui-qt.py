@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python2
 
 # Boodler: a programmable soundscape tool
 # Designed by Andrew Plotkin <erkyrath@eblong.com>
