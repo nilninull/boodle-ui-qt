@@ -105,7 +105,7 @@ def qtmain():
             self.proxyModel = QtGui.QSortFilterProxyModel()
             self.proxyModel.setDynamicSortFilter(True)
             self.proxyModel.setSortCaseSensitivity(QtCore.Qt.CaseInsensitive)
-            self.proxyModel.setFilterKeyColumn(2)
+            self.proxyModel.setFilterKeyColumn(-1)
 
             # widgets for now playing agent
             self.nowPlayingGroupBox = QtGui.QGroupBox("Now playing")
